@@ -8,50 +8,67 @@
 
     <title>Document</title>
   </head>
-  <body
-    class="
-      bg-gray-100
-      sm:bg-yellow-200
-      md:bg-green-300
-      lg:bg-pink-300
-      xl:bg-blue-300
-      2xl:bg-red-300
-    "
-  >
-    <div class="px-8 py-12 max-w-md mx-auto">
-      <img class="h-10" src="./img/logo.svg" alt="Workcation" />
-      <img
-        class="mt-6 rounded-lg shadow-xl"
-        src="img/beach-work.jpg"
-        alt="Woman workcationing image"
-      />
-      <h1 class="mt-6 text-2xl font-bold text-gray-800">
-        You can work from anywhere.<span class="text-indigo-500">
-          Take advantage of it.
-        </span>
-      </h1>
-      <p class="mt-2 text-gray-500">
-        Workcation helps you find work-friendly rentals in beautiful locations
-        so you can enjoy some nice weather even when you're not on vacation.
-      </p>
-      <div class="mt-4">
-        <a
+  <body class="bg-gray-100">
+    <div class="grid grid-cols-2">
+      <div class="px-8 py-12 max-w-md mx-auto sm:max-w-xl lg:px-12 lg:py-24">
+        <img class="h-10" src="./img/logo.svg" alt="Workcation" />
+        <img
           class="
-            inline-block
+            mt-6
             rounded-lg
-            bg-indigo-500
-            text-white
-            px-5
-            py-3
-            shadow-lg
-            uppercase
-            tracking-wider
-            font-semibold
-            text-sm
+            shadow-xl
+            sm:mt-8 sm:h-64 sm:w-full sm:object-cover
+            object-center
+            lg:hidden
           "
-          href="#"
-          >Book your escape</a
+          src="img/beach-work.jpg"
+          alt="Woman workcationing image"
+        />
+        <h1
+          class="
+            mt-6
+            text-2xl
+            font-bold
+            text-gray-800
+            sm:mt-8 sm:text-4xl
+            lg:text-3xl
+          "
         >
+          You can work from anywhere.<span class="text-indigo-500">
+            Take advantage of it.
+          </span>
+        </h1>
+        <p class="mt-2 text-gray-500 sm:mt-4 sm:text-xl">
+          Workcation helps you find work-friendly rentals in beautiful locations
+          so you can enjoy some nice weather even when you're not on vacation.
+        </p>
+        <div class="mt-4 sm:mt-6">
+          <a
+            class="
+              inline-block
+              rounded-lg
+              bg-indigo-500
+              text-white
+              px-5
+              py-3
+              shadow-lg
+              uppercase
+              tracking-wider
+              font-semibold
+              text-sm
+              sm:text-base
+            "
+            href="#"
+            >Book your escape</a
+          >
+        </div>
+      </div>
+      <div class="">
+        <img
+          class="hidden lg:block"
+          src="img/beach-work.jpg"
+          alt="Woman workcationing image"
+        />
       </div>
     </div>
   </body>
