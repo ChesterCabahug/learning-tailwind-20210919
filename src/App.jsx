@@ -20,7 +20,7 @@ export default function App() {
         "
         >
           <div className="xl:max-w-xl">
-            <img className="h-10" src="./img/logo.svg" alt="Workcation" />
+            <img className="h-10" src="./img/logo-brand.svg" alt="Workcation" />
             <img
               className="
               mt-6
@@ -42,10 +42,14 @@ export default function App() {
               sm:mt-8 sm:text-4xl
               lg:text-3xl
               xl:text-4xl
+
+              font-headline
+              tracking-tight
+              font-semibold
             "
             >
               You can work from anywhere.
-              <span className="text-indigo-500">
+              <span className="text-brand">
                 <br className="hidden lg:inline" />
                 Take advantage of it.
               </span>

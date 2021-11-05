@@ -15,20 +15,19 @@
     sm:text-base;
   }
   .btn-primary {
-    @apply bg-indigo-500
-    hover:bg-indigo-400
+    @apply bg-brand
+    hover:bg-brand-light
     sm:hover:text-3xl
     focus:outline-none
     focus:ring
     focus:ring-offset-2
-    focus:ring-indigo-500
+    focus:ring-brand
     focus:ring-opacity-50
-    active:bg-indigo-600
+    active:bg-brand-dark
     text-white;
   }
   .btn-secondary {
-    @apply 
-    bg-gray-300
+    @apply bg-gray-300
     hover:bg-gray-200
     sm:hover:text-3xl
     focus:bg-gray-300 
