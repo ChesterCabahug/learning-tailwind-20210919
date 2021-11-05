@@ -17,6 +17,8 @@ export default function App() {
           lg:px-12 lg:py-24 lg:max-w-full
           xl:mr-0
           2xl:col-span-2
+
+          
         "
         >
           <div className="xl:max-w-xl">
@@ -61,12 +63,47 @@ export default function App() {
             </p>
             <div className="mt-4 sm:mt-6">
               <a
-                className="btn btn-primary mr-4  shadow-lg hover:-translate-y-0.5 transform transition"
+                className="inline-block
+                rounded-lg
+                px-5
+                py-3
+                uppercase
+                tracking-wider
+                font-semibold
+                text-sm
+                sm:text-base bg-brand
+                hover:bg-brand-light
+                sm:hover:text-3xl
+                focus:outline-none
+                focus:ring
+                focus:ring-offset-2
+                focus:ring-brand
+                focus:ring-opacity-50
+                active:bg-brand-dark
+                text-white mr-4  shadow-lg hover:-translate-y-0.5 transform transition"
                 href="#"
               >
                 Book your escape
               </a>
-              <a className="btn btn-secondary" href="#">
+              <a
+                className="inline-block
+                  rounded-lg
+                  px-5
+                  py-3
+                  uppercase
+                  tracking-wider
+                  font-semibold
+                  text-sm
+                  sm:text-base bg-gray-300
+                  hover:bg-gray-200
+                  sm:hover:text-3xl
+                  focus:bg-gray-300 
+                  focus:ring-opacity-50
+                  active:bg-gray-400
+                  text-gray-800
+    "
+                href="#"
+              >
                 Learn More
               </a>
             </div>
